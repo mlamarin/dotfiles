@@ -11,6 +11,12 @@ fi
 # Settings
 source ~/.bash/settings.bash
 
+# Aliases
+source ~/.bash/aliases.bash
+
+# Quartz Bio
+source ~/.bash/qb.bash
+
 # Bootstrap
 source ~/.shell/bootstrap.sh
 
@@ -25,6 +31,12 @@ source ~/.bash/prompt.bash
 
 # Plugins
 source ~/.bash/plugins.bash
+
+# extraterm
+source ~/.bash/setup_extraterm_bash.sh
+
+# powerline
+source ~/.dotfiles/powerline/powerline.bash
 
 # Allow local customizations in the ~/.shell_local_after file
 if [ -f ~/.shell_local_after ]; then

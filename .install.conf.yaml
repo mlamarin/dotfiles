@@ -8,32 +8,20 @@
 - link:
     ~/.agignore:
     ~/.aria2/aria2.conf:
-    ~/.axelrc:
     ~/.bash:
     ~/.bash_profile:
     ~/.bashrc:
-    ~/.dotfiles: ''
+#    ~/.dotfiles: ''
     ~/.emacs.d:
     ~/.emacs:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.gnupg/gpg.conf:
-    ~/.hgrc:
     ~/.inputrc:
-    ~/.ipython/profile_default/ipython_kernel_config.py:
-    ~/.irssi:
-    ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
-    ~/.local/share/jupyter/nbextensions: jupyter/nbextensions
-    ~/.pythonrc:
-    ~/.rtorrent.rc:
     ~/.screenrc:
     ~/.shell:
     ~/.tmux.conf:
-    ~/.vim:
-    ~/.vimrc:
-    ~/.zsh:
-    ~/.zshrc:
+
 
 - shell:
-  - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
   - git update-submodules # after linking ~/.gitconfig
