@@ -4,3 +4,6 @@
 [submodule "zsh/plugins/dircolors-solarized"]
 	path = shell/plugins/dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "pureline"]
+	path = pureline
+	url = https://github.com/chris-marsh/pureline.git
